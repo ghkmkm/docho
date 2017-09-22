@@ -1,1 +1,1 @@
-[2017-09-22 14:32:06] layer " ": Expected Either a default asset specification or a layer asset specification but " " found.
+[2017-09-22 16:24:52] layer " ": Expected Either a default asset specification or a layer asset specification but " " found.

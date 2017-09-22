@@ -1,6 +1,50 @@
 @charset "utf-8";
-
-
-p{
-    writing-mode: vertical-rl;
+body {
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
+
+#header,
+#history,
+##midokoro,
+#gallary,
+#news,
+#access,
+#footer {
+    width: 100%;
+}
+
+
+/*inner-----------------------------------------------------*/
+
+#history-inner,
+#gallary-inner {
+    background: url(../img/bg_border.png) no-repeat left top, url(../img/bg_border.png) no-repeat left bottom;
+}
+
+#midokoro-inner {
+    background: url(../img/bg_border.png) no-repeat right top, url(../img/bg_border.png) no-repeat right bottom;
+}
+
+#header-inner,
+#history-inner,
+#gallary-inner,
+#midokoro-inner {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#header-inner {
+    position: relative;
+}
+
+
+/*header-----------------------------------------------------*/
+
+#header {
+    height: 767px;
+    background: url(../img/bg_header.jpg) no-repeat center center;
+}
+
+
