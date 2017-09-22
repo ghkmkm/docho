@@ -1,9 +1,6 @@
 @charset "utf-8";
 
 
-  #wrap{
-    width: 800px;
-    overflow: hidden;
-    margin: 0 auto;
-    background-color: #fcc;
-  }
+p{
+    writing-mode: vertical-rl;
+}
