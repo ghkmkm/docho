@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
     <meta name="description" content="ページの説明">
     <title>タイトル</title>
     <link rel="stylesheet" href="css/reset.css">
@@ -14,32 +16,44 @@
         <header id="header">
             <div id="header-inner">
                 <nav id="global-nav">
-                    <img src="img/logo.png" alt="logo">
-                    <p>歴史<br>みどころ<br>ギャラリー<br>お知らせ<br>アクセス</p>
+                    <p>
+                        <a href="#history" alt="歴史">歴史</a><br>
+                        <a href="#midokoro" alt="みどころ">みどころ</a><br>
+                        <a href="#gallary" alt="ギャラリー">ギャラリー</a><br>
+                        <a href="#news" alt="お知らせ">お知らせ</a><br>
+                        <a href="#access" alt="アクセス">アクセス</a>
+                    </p>
                 </nav>
             </div>
             <!--header-inner-->
         </header>
 
-        <!------------------------------------------------------------------------------------------>
+        <!----------------------------------------------------------------->
 
         <main id="main">
             <div id="main-inner">
 
 
                 <section id="history">
-                    <div class="history-inner">
-                        <section class="his1">
-                            <img src="img/img_history1.jpg" alt="道庁の昔の画像">
-                            <h2>北海道のシンボルとして</h2>
-                            <p>赤れんが庁舎の愛称で知られる北海道旧本庁舎は、1888(明治21)年の建立以降、80年にわたり北海道の中枢として、その役割を果たしてきました。<br> 約250万個ものれんがを使用して造られたアメリカ風のネオ・バロック様式の建造物は現在、国の重要文化財にも指定され、観光名所・街中のオアシスとして広く親しまれています。
-                            </p>
-                        </section>
-                        <section class="his2">
-                            <h2>火事にも負けない強いれんが</h2>
-                            <P>赤レンガ庁舎は、1909年（明治42年）の火災により内部が全焼しました。しかし、外壁のれんが壁にはさしたる損傷もなく、翌年には復旧工事に取り掛かり、1911年（明治44年）には工事が完了しています。<br>これらのれんがは、当時の白石村と豊平村（現在の札幌市内）で製造されたものです。
-                            </P>
-                        </section>
+                    <div id="history-inner">
+                        <div class="section-history">
+                            <div class="box-his">
+                                <section class="his1">
+                                    <img src="img/img_history1.jpg" alt="道庁の昔の画像">
+                                    <h2>北海道のシンボルとして</h2>
+                                    <p>赤れんが庁舎の愛称で知られる北海道旧本庁舎は、1888(明治21)年の建立以降、80年にわたり北海道の中枢として、その役割を果たしてきました。<br> 約250万個ものれんがを使用して造られたアメリカ風のネオ・バロック様式の建造物は現在、国の重要文化財にも指定され、観光名所・街中のオアシスとして広く親しまれています。
+                                    </p>
+                                </section>
+                                <section class="his2">
+                                    <img src="img/img_history2.jpg" alt="れんがの画像">
+                                    <h2>火事にも負けない強いれんが</h2>
+                                    <P>赤レンガ庁舎は、1909年（明治42年）の火災により内部が全焼しました。しかし、外壁のれんが壁にはさしたる損傷もなく、翌年には復旧工事に取り掛かり、1911年（明治44年）には工事が完了しています。<br>これらのれんがは、当時の白石村と豊平村（現在の札幌市内）で製造されたものです。
+                                    </P>
+                                </section>
+                            </div>
+                            <!--box-his-->
+                        </div>
+                        <!--section-history-->
                     </div>
                     <!--history-inner-->
                 </section>
@@ -48,34 +62,40 @@
 
                 <section id="midokoro">
                     <div id="midokoro-inner">
-                        <div class="midokoro-left">
-                            <section class="midokoro1">
-                                <img src="img/img_midokoro1.jpg" alt="道庁の内装画像">
-                                <h2>当時の最新技術を用いた洋風建築</h2>
-                                <P>三連アーチが美しい1階正面ホールを筆頭に、赤れんが庁舎内ではそこかしこに美しいアーチを見ることができます。その中心にある飾りや、階段の側面に彫られた円形模様（ロゼッタ）など、階段を装飾的に扱うのは洋風建築の特徴です。建物の頂にそびえる八角塔は当時アメリカで流行していた建築様式の一つで、独立と進取のシンボルとされていました。</P>
-                            </section>
-                            <section class="midokoro3">
-                                <img src="img/img_midokoro3.jpg" alt="展示室の画像">
-                                <h2>学術資料から観光情報まで！</h2>
-                                <P>庁舎内にはいくつもの展示室があり、それぞれに貴重な資料が展示されています。北海道立文書館、北海道博物館・赤れんがサテライト、樺太関係資料館、赤れんが北方領土館、国際交流・道産品展示室に加え、観光ボランティアが常駐する観光情報コーナーなどもあります。学習の活動や観光の情報収集などに、ぜひ役立ててください。</P>
-                            </section>
+                        <div class="section-midokoro">
+                            <div class="box-mido">
+                                <div class="midokoro-left">
+                                    <section class="midokoro1">
+                                        <img src="img/img_midokoro1.jpg" alt="道庁の内装画像">
+                                        <h2>当時の最新技術を用いた洋風建築</h2>
+                                        <P>三連アーチが美しい1階正面ホールを筆頭に、赤れんが庁舎内ではそこかしこに美しいアーチを見ることができます。その中心にある飾りや、階段の側面に彫られた円形模様（ロゼッタ）など、階段を装飾的に扱うのは洋風建築の特徴です。建物の頂にそびえる八角塔は当時アメリカで流行していた建築様式の一つで、独立と進取のシンボルとされていました。</P>
+                                    </section>
+                                    <section class="midokoro3">
+                                        <img src="img/img_midokoro3.jpg" alt="展示室の画像">
+                                        <h2>学術資料から観光情報まで！</h2>
+                                        <P>庁舎内にはいくつもの展示室があり、それぞれに貴重な資料が展示されています。北海道立文書館、北海道博物館・赤れんがサテライト、樺太関係資料館、赤れんが北方領土館、国際交流・道産品展示室に加え、観光ボランティアが常駐する観光情報コーナーなどもあります。学習の活動や観光の情報収集などに、ぜひ役立ててください。</P>
+                                    </section>
+                                </div>
+                                <!--midokoro-left-->
+                                <div class="midokoro-right">
+                                    <section class="midokoro2">
+                                        <img src="img/img_midokoro2.jpg" alt="道庁の後ろ姿の画像">
+                                        <h2>後ろ姿美人</h2>
+                                        <P>2基の煙突がのびやかにそびえ、平明でスマートなデザインが美しい赤れんが庁舎の後ろ姿。前面のにぎやかな構成に比べ、飾りが少なくシンプルで、いかにもれんが造りらしい味わいを漂わせています。<br> このように赤れんが庁舎は、見る角度や季節などあらゆる要素によってその姿を変える魅力があります。ぜひ実際にご覧になってみてください。
+                                        </P>
+                                    </section>
+                                    <section class="midokoro4">
+                                        <img src="img/img_midokoro4.jpg" alt="記念室の画像">
+                                        <h2>記念室（旧北海道長官・知事室）</h2>
+                                        <P>歴代の長官や知事が執務したこの部屋は、赤れんが庁舎内でもひときわ優美な重厚さを今に残しています。<br> ほかの部屋とは造作が別で、出入口枠や窓回りは、手の込んだ唐草模様の彫刻で飾られ、建具・腰の鏡板などには、たも材の玉目（たまもく）一枚板がつかわれています。
+                                        </P>
+                                    </section>
+                                </div>
+                                <!--midokoro-right-->
+                            </div>
+                            <!--box-mido-->
                         </div>
-                        <!--midokoro-left-->
-                        <div class="midokoro-right">
-                            <section class="midokoro2">
-                                <img src="img/img_midokoro2.jpg" alt="道庁の後ろ姿の画像">
-                                <h2>後ろ姿美人</h2>
-                                <P>2基の煙突がのびやかにそびえ、平明でスマートなデザインが美しい赤れんが庁舎の後ろ姿。前面のにぎやかな構成に比べ、飾りが少なくシンプルで、いかにもれんが造りらしい味わいを漂わせています。<br> このように赤れんが庁舎は、見る角度や季節などあらゆる要素によってその姿を変える魅力があります。ぜひ実際にご覧になってみてください。
-                                </P>
-                            </section>
-                            <section class="midokoro4">
-                                <img src="img/img_midokoro4.jpg" alt="記念室の画像">
-                                <h2>記念室（旧北海道長官・知事室）</h2>
-                                <P>歴代の長官や知事が執務したこの部屋は、赤れんが庁舎内でもひときわ優美な重厚さを今に残しています。<br> ほかの部屋とは造作が別で、出入口枠や窓回りは、手の込んだ唐草模様の彫刻で飾られ、建具・腰の鏡板などには、たも材の玉目（たまもく）一枚板がつかわれています。
-                                </P>
-                            </section>
-                        </div>
-                        <!--midokoro-right-->
+                        <!--section-midokoro-->
                     </div>
                     <!--midokoro-inner-->
                 </section>
@@ -84,35 +104,43 @@
 
                 <section id="gallary">
                     <div id="gallary-inner">
-                        <h2>赤れんが庁舎のちょっとしたスポットをご紹介します</h2>
-                        <div class="ga_img_up">
-                            <div class="ga1">
-                                <img src="img/img_gallary1.jpg" alt="道庁入口の画像">
-                                <p>入口では足元に北海道が！</p>
+                        <div class="section-gallary">
+                            <div class="box-gala">
+                                <h2 class="h-ga">赤れんが庁舎のちょっとしたスポットをご紹介します</h2>
+                                <div class="ga_img_up">
+                                    <div class="ga1">
+                                        <img src="img/img_gallary1.jpg" alt="道庁入口の画像">
+                                        <p>入口では足元に北海道が！</p>
+                                    </div>
+                                    <div class="ga2">
+                                        <img src="img/img_gallary2.jpg" alt="手すりの画像">
+                                        <p>場所によって違う手すりの装飾</p>
+                                    </div>
+                                    <div class="ga3">
+                                        <img src="img/img_gallary3.jpg" alt="防火扉の画像">
+                                        <p>アーチに沿って作られた防火扉</p>
+                                    </div>
+                                </div>
+                                <!--ga_img_up-->
+                                <div class="ga_img_down">
+                                    <div class="ga4">
+                                        <img src="img/img_gallary4.jpg" alt="階段踊り場の画像">
+                                        <p>階段踊り場からの三連アーチ</p>
+                                    </div>
+                                    <div class="ga5">
+                                        <img src="img/img_gallary5.jpg" alt="外壁煉瓦の画像">
+                                        <p>実は2色の煉瓦が使われています</p>
+                                    </div>
+                                    <div class="ga6">
+                                        <img src="img/img_gallary6.jpg" alt="シンボルの星の画像">
+                                        <p>シンボルの星は至るところに！</p>
+                                    </div>
+                                </div>
+                                <!--ga_img_down-->
                             </div>
-                            <div class="ga2">
-                                <img src="img/img_gallary2.jpg" alt="手すりの画像">
-                                <p>場所によって違う手すりの装飾</p>
-                            </div>
-                            <div class="ga3">
-                                <img src="img/img_gallary3.jpg" alt="防火扉の画像">
-                                <p>アーチに沿って作られた防火扉</p>
-                            </div>
+                            <!--box-gala-->
                         </div>
-                        <div class="ga_img_down">
-                            <div class="ga4">
-                                <img src="img/img_gallary4.jpg" alt="階段踊り場の画像">
-                                <p>階段踊り場からの三連アーチ</p>
-                            </div>
-                            <div class="ga5">
-                                <img src="img/img_gallary5.jpg" alt="外壁煉瓦の画像">
-                                <p>実は2色の煉瓦が使われています</p>
-                            </div>
-                            <div class="ga6">
-                                <img src="img/img_gallary6.jpg" alt="シンボルの星の画像">
-                                <p>シンボルの星は至るところに！</p>
-                            </div>
-                        </div>
+                        <!--section-gallary-->
                     </div>
                     <!--gallary-inner-->
                 </section>
@@ -120,20 +148,20 @@
             </div>
             <!--main-inner-->
 
+            <!---------------------------------------------------------------->
+
             <section id="news">
                 <div id="news-inner">
-                    <dl>
+                    <dl class="news-list">
                         <dt><img src="img/img_news1.jpg" alt="さんまの画像"></dt>
-                        <dd>
+                        <dd class="d-up">
                             <h2>根室さんま直送市</h2>
-                            <p>今年も赤れんが庁舎前庭に根室の「さんま」がやってきます。<br>根室産さんまの炭火焼き、つみれ汁などを味わうことができます！<br><br>期間：9月20日（水）・21日（木）10:00～18：00（最終日は17：00まで）<br> 場所：赤れんが庁舎　前庭　　問い合わせ先：総務部総務課（011-204-5055）<br>※なくなり次第終了
-                            </p>
-                        </dd>
+                            <P>今年も赤れんが庁舎前庭に根室の「さんま」がやってきます。<br>根室産さんまの炭火焼き、つみれ汁などを味わうことができます！<br><br>期間：9月20日（水）・21日（木）10:00～18：00（最終日は17：00まで）<br> 場所：赤れんが庁舎　前庭　　問い合わせ先：総務部総務課（011-204-5055）<br>※なくなり次第終了</P>
+
                         <dt><img src="img/img_news2.jpg" alt="コンサートの画像"></dt>
-                        <dd>
+                        <dd class="d-down">
                             <h2>北海道警察音楽隊赤れんがコンサート</h2>
-                            <p>お昼のひとときを、道警音楽隊演奏のステージドリルでお楽しみいただけます。<br>ぜひお立ち寄りください。<br>期間：9月22日（金）12:10～12：50<br>場所：赤れんが庁舎前 特設会場　　問い合わせ先：北海道警察音楽隊（011-251-0110）
-                            </p>
+                            <P>お昼のひとときを、道警音楽隊演奏のステージドリルでお楽しみいただけます。<br>ぜひお立ち寄りください。<br>期間：9月22日（金）12:10～12：50<br>場所：赤れんが庁舎前 特設会場　　問い合わせ先：北海道警察音楽隊（011-251-0110）</P>
                         </dd>
                     </dl>
                 </div>
@@ -142,24 +170,31 @@
             <!--news-->
         </main>
 
-        <!------------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------->
 
         <section id="access">
-            <div class="access-inner">
-                <img src="img/img_access1.png" alt="地図">
-                <div class="access-right">
-                    <p>★ 住所：札幌市中央区北3条西6丁目<br>（地下鉄南北線・東豊線・JR線「さっぽろ（札幌）」 下車、徒歩8分）<br>（地下鉄南北線・東西線・東豊線「大通」 下車 、徒歩9分）<br>★ 開館時間：午前8時45分～午後6時（休館日：年末年始）<br>★ 入場無料<br>※ 駐車場はありません。
-                    </p>
+            <div id="access-inner">
+                <div class="box-ac">
+                    <img src="img/img_access1.png" alt="地図" class="img-ac">
+                    <div class="access-right">
+                        <img src="img/midashi_access.png" alt="アクセス">
+                        <p>★ 住所：札幌市中央区北3条西6丁目<br>（地下鉄南北線・東豊線・JR線「さっぽろ（札幌）」 下車、徒歩8分）<br>（地下鉄南北線・東西線・東豊線「大通」 下車 、徒歩9分）<br>★ 開館時間：午前8時45分～午後6時（休館日：年末年始）<br>★ 入場無料<br>※ 駐車場はありません。
+                        </p>
+                    </div>
                 </div>
+                <!--box-ac-->
             </div>
+            <!--access-inner-->
         </section>
 
-        <!------------------------------------------------------------------------------------------>
+        <!---------------------------------------------------------------->
 
         <footer id="footer">
-            <img src="img/logo.png" alt="logo">
+            <div class="img-foot">
+                <img src="img/logo_footer.png" alt="logo">
+            </div>
             <nav id="footer-nav">
-                <ul>
+                <ul class="f-nav">
                     <li>
                         <a href="#header">TOP</a>
                     </li>
@@ -176,16 +211,14 @@
                         <a href="#news">お知らせ</a>
                     </li>
                     <li>
-                        <a href="#access">アクセス</a>
+                        <a href="#access" class="last">アクセス</a>
                     </li>
                 </ul>
             </nav>
-            <div>
+            <div class="icon-foot-sns">
                 <a href="#">
-                    <img src="img/icon_foot_facebook.png" alt="Facebook">
+                    <img src="img/icon_foot_facebook.png" alt="Facebook" class="icon-face">
                 </a>
-            </div>
-            <div>
                 <a href="#">
                     <img src="img/icon_foot_twitter.png" alt="twitter">
                 </a>
@@ -193,12 +226,14 @@
             <div class="link">
                 <p><a href="">関連リンク</a></p>
                 <p><a href="">関連リンク</a></p>
-                <p><a href="">関連リンク</a></p>
+                <p><a href="" class="last">関連リンク</a></p>
             </div>
-            <small>copyright  2017 HOKKAIDO GOVERNMENT ALL RIGHTS RESERVED.</small>
+            <div class="c-foot">
+                <small>copyright  2017 HOKKAIDO GOVERNMENT ALL RIGHTS RESERVED.</small>
+            </div>
         </footer>
-        
-        
+
+
     </div>
     <!--wrap-->
 </body>
