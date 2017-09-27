@@ -3,12 +3,13 @@ body {
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     list-style-type: none;
     color: #333;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 #main-inner {
     background: 
-        url(../img/bg_renga_left.png) no-repeat left -111px, url(../img/bg_renga_right.png) no-repeat right 454px, 
+        url(../img/bg_renga_left.png) no-repeat left -111px, 
+        url(../img/bg_renga_right.png) no-repeat right 454px, 
         url(../img/bg_renga_left.png) no-repeat left 1750px, 
         url(../img/bg_renga_right.png) no-repeat right 2610px;
 }
@@ -24,9 +25,13 @@ body {
 }
 
 h2 {
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 20px;
     letter-spacing: 2px;
+}
+
+p{
+    line-height: 1.5;
 }
 
 
@@ -34,11 +39,15 @@ h2 {
 
 #history-inner,
 #gallary-inner {
-    background: url(../img/bg_border.png) no-repeat left top, url(../img/bg_border.png) no-repeat left bottom;
+    background: 
+        url(../img/bg_border.png) no-repeat left top, 
+        url(../img/bg_border.png) no-repeat left bottom;
 }
 
 #midokoro-inner {
-    background: url(../img/bg_border.png) no-repeat right top, url(../img/bg_border.png) no-repeat right bottom;
+    background: 
+        url(../img/bg_border.png) no-repeat right top, 
+        url(../img/bg_border.png) no-repeat right bottom;
 }
 
 #header-inner {
@@ -56,6 +65,28 @@ h2 {
     position: relative;
 }
 
+/*container-----------------------------------------------------*/
+
+.container{
+    display: inline-block;
+    width: 977px;
+}
+
+/*section見出し（画像）-----------------------------------------------------*/
+
+.s-title-right{
+    position: absolute;
+    right: 0;
+    top: 70px;
+    margin: 0;   
+}
+
+.s-title-left{
+    position: absolute;
+    left: 0;
+    top: 70px;
+    margin: 0;
+}
 
 /*header-----------------------------------------------------*/
 
@@ -97,17 +128,12 @@ h2 {
 
 #history {
     padding-top: 150px;
-    background: url(../img/midashi_history.png) no-repeat right 70px;
+    position: relative;
 }
+
 
 #history-inner {
     text-align: left;
-}
-
-.section-history {
-    display: inline-block;
-    width: 977px;
-    overflow: hidden;
 }
 
 .box-his {
@@ -131,16 +157,11 @@ h2 {
 
 #midokoro {
     padding-top: 150px;
-    background: url(../img/midashi_midokoro.png) no-repeat left 70px;
+    position: relative;
 }
 
 #midokoro-inner {
     text-align: right;
-}
-
-.section-midokoro {
-    display: inline-block;
-    width: 977px;
 }
 
 .box-mido {
@@ -176,17 +197,11 @@ h2 {
 
 #gallary {
     padding: 150px 0;
-    background: url(../img/midashi_gallary.png) no-repeat right 70px;
-    line-height: 1;
+    position: relative;
 }
 
 #gallary-inner {
     text-align: left;
-}
-
-.section-gallary {
-    display: inline-block;
-    width: 977px;
 }
 
 .box-gala {
@@ -302,6 +317,9 @@ dt {
     margin-bottom: 30px;
 }
 
+.title-ac{
+    margin: 0;
+}
 
 /*footer-----------------------------------------------------*/
 
@@ -351,6 +369,7 @@ dt {
 .link {
     width: 490px;
     margin: 0 auto 50px auto;
+    overflow: hidden;
 }
 
 .link a {
